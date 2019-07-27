@@ -1,5 +1,5 @@
 # Write your code here.
-array=[Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
+array = [Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
 
 def badge_maker(array)
   array.each do |name|
