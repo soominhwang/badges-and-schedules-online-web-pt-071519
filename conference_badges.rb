@@ -21,12 +21,12 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  first_call = batch_badge_creator(array)
-  first_call.each do |badge|
+  first_method = batch_badge_creator(array)
+  first_method.each do |badge|
     puts badge
   end
-  second_call = assign_rooms(array)
-  second_call.each do |name|
+  second_method = assign_rooms(array)
+  second_method.each do |name|
     puts name
-  end 
+  end
 end
