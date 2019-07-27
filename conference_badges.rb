@@ -22,10 +22,5 @@ end
 
 def printer
   batch_badge_creator.first
+  assign_rooms
 end
-
-## create a method called printer
-## it outputs first results of the batch_badge_creator method
-## and then of the assign_rooms method to the screen
-
-## remember that methods can call other methods
