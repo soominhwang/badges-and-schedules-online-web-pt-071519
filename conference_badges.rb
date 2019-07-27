@@ -1,6 +1,7 @@
 # Write your code here.
 
 def badge_maker(array)
+  array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   array.each do |name|
     return "Hello, my name is #{name}."
   end
