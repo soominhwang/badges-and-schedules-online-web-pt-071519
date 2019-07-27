@@ -21,7 +21,7 @@ def assign_rooms(array)
 end
 
 def printer
-  
+  batch_badge_creator.first
 end
 
 ## create a method called printer
