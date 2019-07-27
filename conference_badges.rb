@@ -13,8 +13,8 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
-  array.each do |name|
-    array << "Hello, #{name}! You'll be assigned to room #{array.index+1}!"
+  array.each_with_index do |name, index|
+    array << "Hello, #{name}! You'll be assigned to room #{index}!"
   end
   array
 end
