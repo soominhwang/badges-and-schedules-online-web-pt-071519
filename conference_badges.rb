@@ -4,10 +4,18 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
+def batch_badge_creator(array)
+  array=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  array.each do |name|
+    return "Hello, my name is #{name}."
+  end
+end
 
-## create a badge_maker method
+## create a badge_maker method that prints a name
+
+## create a batch_badge_creator
 ## it should read "Hello, my name is ___" when provided with names
-## array of names [Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
+## array of names ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 ## create a method called assign_rooms
 ## takes the list of names and assign them to room 1-7
