@@ -20,9 +20,7 @@ def assign_rooms(array)
   new_array
 end
 
-## create a method called assign_rooms
-## takes the list of names and assign them to room 1-7
-## output should read "Hello, __! You'll be assigned to room ___!"
+
 
 ## hint: assign a room number to each person by indexing each element
 ## return value of the each method is
