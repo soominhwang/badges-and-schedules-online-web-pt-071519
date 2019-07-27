@@ -12,13 +12,10 @@ def batch_badge_creator(array)
   new_array
 end
 
-def assign_rooms
-  name=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  room=[1,2,3,4,5,6,7]
-  puts "Hello, #{name}! You'll be assigned to room ___!"
+def assign_rooms()
+  puts "Hello, #{name}! You'll be assigned to room #{room}!"
 
 end
-
 
 ## create a method called assign_rooms
 ## takes the list of names and assign them to room 1-7
