@@ -14,7 +14,6 @@ end
 
 def assign_rooms(name, room)
   puts "Hello, #{name}! You'll be assigned to room #{room}!"
-
 end
 
 ## create a method called assign_rooms
