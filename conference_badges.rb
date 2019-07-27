@@ -20,11 +20,9 @@ def assign_rooms(array)
   new_array
 end
 
-
-
-## hint: assign a room number to each person by indexing each element
-## return value of the each method is
-## the original array that you are calling it on.
+def printer
+  
+end
 
 ## create a method called printer
 ## it outputs first results of the batch_badge_creator method
