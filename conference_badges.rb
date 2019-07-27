@@ -11,10 +11,8 @@ def batch_badge_creator(array)
     return "Hello, my name is #{name}."
     new_array << "Hello, my name is #{name}."
   end
-  new_array
+  new_array(name)
 end
-
-## create a badge_maker method that prints a name
 
 ## create a batch_badge_creator
 ## it should read "Hello, my name is ___" when provided with names
