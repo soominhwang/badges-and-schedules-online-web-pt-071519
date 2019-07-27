@@ -16,7 +16,6 @@ def assign_rooms(array)
   array.each_with_index do |name, index|
     array << "Hello, #{name}! You'll be assigned to room #{index}!"
   end
-  array
 end
 
 ## create a method called assign_rooms
