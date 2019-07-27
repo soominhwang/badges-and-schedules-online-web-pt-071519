@@ -3,7 +3,7 @@ array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(array)
   array.each do |name|
-    "Hello, my name is #{name}"
+    return "Hello, my name is #{name}"
   end
 end
 
